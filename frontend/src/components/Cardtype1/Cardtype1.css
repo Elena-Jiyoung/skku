@@ -1,0 +1,54 @@
+.cardview-container{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px -3px;
+    transition: 0.5s;
+    border-radius: 10px;
+
+}
+
+.cardview-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0px, 0px, 15px, 0px;
+}
+
+.title{
+    margin-bottom: 0.5rem;
+}
+
+.image-container img{
+    overflow: hidden;
+    height: 200px;
+    flex: 1;
+}
+
+.content-container{
+    margin: 1rem;
+    margin-top: 0.5rem;
+    height: 120px;
+    overflow: hidden;
+}
+
+h3, p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    transition: 0.2s;
+}
+
+.btn button:hover{
+    background: rgba(27, 156, 252, 0.1);
+}

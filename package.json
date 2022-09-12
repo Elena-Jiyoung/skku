@@ -1,0 +1,12 @@
+{
+  "name": "skku",
+  "version": "1.0.0",
+  "description": "This repository is the fullstack implementation of the website for Global Leading Education Group, a research group at Sungkyunkwan University.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

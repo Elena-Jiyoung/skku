@@ -1,0 +1,34 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://github.com/psf/black
+    rev: stable
+    hooks:
+    -   id: black
+        language_version: python3
+-   repo: https://github.com/pycqa/isort
+    rev: ""
+    hooks:
+      - id: isort
+        name: isort
+      - id: isort
+-   repo: https://github.com/pre-commit/mirrors-prettier
+    rev: ""
+    hooks:
+    -   id: prettier
+        types: [javascript]
+        args: [--config=frontend/.prettierrc.json]
+        additional_dependencies:
+        -   eslint-plugin-prettier
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    rev: ""
+    hooks:
+    -   id: eslint
+-   repo: https://github.com/pycqa/flake8
+    rev: ''
+    hooks:
+    -   id: flake8

@@ -1,0 +1,51 @@
+.cardview2-container{
+    width: 580px;
+    height: 380px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px -3px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.cardview2-container:hover{
+    transform: scale(1.05);
+    box-shadow: 0px, 0px, 15px, 0px;
+}
+
+.title{
+    margin-bottom: 0.5rem;
+}
+
+.image2-container img{
+    margin-left: 35px;
+    margin-top: 42.5px;
+    margin-bottom: 42.5px;
+    overflow: hidden;
+    width: 230px;
+    height: 290px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content2-container{
+    margin-left: 25px;
+    margin-top: 0.5rem;
+    height: 225px;
+    width: 225px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+h3, p{
+    margin: 0px;
+    padding: 0px;
+}
