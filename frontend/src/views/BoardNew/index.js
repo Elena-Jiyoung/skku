@@ -21,7 +21,7 @@ export const BoardNew = ({ sendPost }) => {
 
     const [content, setContent] = React.useState(
     );
-    const [article, setArticle] = React.useState([]);
+    
     function sendPost() {
         Axios.post("http://localhost:3001/board", {
             title: title,
